@@ -210,6 +210,10 @@ body{
       font-size: 1.5rem;
   }
 
+  #showcase .btn{
+    margin-top: 1rem;
+  }
+
   /* Services */
 
 #services .container{
@@ -229,11 +233,11 @@ body{
 }
 
 #services .container .service h3{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 #services .container .service p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
@@ -256,6 +260,7 @@ body{
   max-width: 100%;
   height: auto;
 }
+
 
 #about .about-info {
   display: flex;
@@ -289,6 +294,15 @@ body{
 
 #featured h2{
   font-size: 2.5rem;
+}
+
+#featured img {
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+
+#featured img:hover {
+	transform: scale(1.05);
 }
 
 .fetured-img-container{
@@ -387,4 +401,6 @@ footer{
 
 .social a {
   background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 50%;
 }
