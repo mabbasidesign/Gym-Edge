@@ -137,6 +137,10 @@ body{
       color: var(--primary-color);
   }
 
+  .bg-nav {
+    background-color: #666;
+  }
+
   /* Navigation */
 
   #main-nav{
@@ -458,3 +462,96 @@ padding: 0 2rem;
   /* width: 50%;
   margin: auto; */
  }
+
+
+ /* Contact */
+
+ #contact-form .container{
+   display: flex;
+ }
+
+ #contact-form .container div{
+  flex: 1;
+ }
+
+ #contact-form .form {
+  padding: 0 2rem;
+ }
+
+ #contact-form .form .form-group{
+   width: 100%;
+   padding: 0.5rem;
+ }
+
+ #contact-form .form .form-group label{
+  display: block;
+}
+
+#contact-form .form .form-group input,
+#contact-form .form .form-group textarea{
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+
+/* Price */
+
+#price{
+  background-color: #333;
+  text-align: center;
+}
+
+#price h1{
+  color: #fff;
+  margin: 0;
+}
+
+#price p{
+  color: #fff;
+}
+
+.price-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-item {
+  text-align: center;
+  width: 30%;
+  padding: 3rem 0.5rem;
+  background-color: #fff;
+}
+
+.plan {
+  text-transform: uppercase;
+  color: #333;
+  /* word-spacing: 100% */
+}
+
+.price-item h4 {
+  margin-bottom: 1rem;
+}
+
+#price .container .price-item-container p{
+  color: #333;
+}
+
+.price-item p {
+  margin-bottom: 1rem;
+}
+
+.amount {
+  font-size: 0.6rem;
+  color: #888;
+}
+
+.amount span {
+  font-size: 2.4rem;
+}
+
+.price-item div {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
